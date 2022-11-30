@@ -2,13 +2,12 @@ import streamlit as st
 
 
 st.write("""
-# Credit Card Approval Prediction App
+# Division of 2 numbers App
 
-This app predicts the credit card approval probablity
+This app divides the first number buy the second number
 """)
-#Get Input
 
-st.header('User Input Parameters')
+st.header('User Input Numbers')
 
 def user_input_features():
     numerator = st.number_input("Numerator", min_value=-999999999.9999, max_value=999999999.9999)
@@ -17,4 +16,4 @@ def user_input_features():
 
 
 Numerator, Denominator = user_input_features()
-st.write(Numerator/Denominator)
+st.write("The value after division is %d", Numerator/Denominator)
