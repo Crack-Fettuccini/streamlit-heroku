@@ -4,7 +4,7 @@ import streamlit as st
 st.write("""
 # Division of 2 numbers App
 
-This app divides the first number buy the second number
+This app divides the first number by the second number
 """)
 
 st.header('User Input Numbers')
