@@ -1,2 +1,2 @@
 # streamlit-heroku
-Streamlit+Heroku for division of 2 numbers
+Testing hosting streamlit app on heroku using a app that adds 2 numbers
